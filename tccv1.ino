@@ -25,12 +25,12 @@
 BluetoothSerial SerialBT;
 
 // --- Configurações de Wi-Fi e API ---
-const char* ssid = "Maurício 2.4";
-const char* password = "961960804m";
-String writeAPIKey = "SD344USBB2DEBWKV"; 
+const char* ssid = "x";
+const char* password = "x";
+String writeAPIKey = "x"; 
 
-String latitude = "-23.3641700";  
-String longitude = "-46.7405600"; 
+String latitude = "-x";  
+String longitude = "-x"; 
 
 // --- Configurações de Pinos e Display ---
 #define SCREEN_WIDTH 128
