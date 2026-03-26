@@ -68,23 +68,6 @@ O ecossistema ARGUS foi projetado para **não depender inteiramente da internet*
 
 ---
 
-## 📊 Estrutura de Dados e Dashboard
-
-O banco de dados do sistema registra eventos detalhados para análise histórica e treinamento de futuras IAs. 
-
-**Exemplo de Payload de Dados:**
-```json
-{
-  "timestamp": "2023-10-25T14:30:00Z",
-  "device_id": "ARGUS_NODE_01",
-  "sensor_ativado": "Som",
-  "valor_detectado": "85dB",
-  "tipo_evento": "Risco Crítico",
-  "user_id": "USR_045",
-  "contato_notificado": "+5511999999999"
-}
-
-
 ---
 
 
@@ -109,3 +92,22 @@ For any questions or feedback, feel free to open an [issue](https://github.com/s
 
 ### Support
 If you find this project helpful and want to support its development, consider becoming a patron on [Patreon](https://www.patreon.com/SurendraMaran). Your support will help in maintaining and improving the project. Thank you!
+
+## 📊 Estrutura de Dados e Dashboard
+
+O banco de dados do sistema registra eventos detalhados para análise histórica e treinamento de futuras IAs. 
+
+**Exemplo de Payload de Dados:**
+```json
+{
+  "timestamp": "2023-10-25T14:30:00Z",
+  "device_id": "ARGUS_NODE_01",
+  "sensor_ativado": "Som",
+  "valor_detectado": "85dB",
+  "tipo_evento": "Risco Crítico",
+  "user_id": "USR_045",
+  "contato_notificado": "+5511999999999"
+}
+
+
+
