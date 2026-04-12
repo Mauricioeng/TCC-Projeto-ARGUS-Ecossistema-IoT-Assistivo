@@ -1,8 +1,8 @@
 # 👁️ Projeto ARGUS: Ecossistema IoT Assistivo
 
-![INTERFACE]([https://img.shields.io/badge/Status-Em_Desenvolvimento-brightgreen](https://www.youtube.com/watch?v=AZ03ZFNZcRM&t=1s))
-![APP]([https://img.shields.io/badge/Plataforma-ESP32-blue](https://www.youtube.com/watch?v=AZ03ZFNZcRM&t=1s))
-![IoT]([https://img.shields.io/badge/Tecnologia-IoT_%7C_Edge_Computing-orange](https://www.youtube.com/watch?v=H1biLwCZ6vE&t=3s))
+[![Mobile](https://img.shields.io/badge/Status-Em_Desenvolvimento-brightgreen)](https://www.youtube.com/watch?v=AZ03ZFNZcRM&t=1s)
+[![Iot](https://img.shields.io/badge/Plataforma-ESP32-blue)](https://www.youtube.com/watch?v=H1biLwCZ6vE&t=3s)
+[![Download App V1](https://img.shields.io/badge/Tecnologia-IoT_%7C_Edge_Computing-orange)](https://www.mediafire.com/file/hdiionlcu9gl2uo/ArgusAPP.apk/file)
 
 ## 📌 Descrição do Projeto
 
