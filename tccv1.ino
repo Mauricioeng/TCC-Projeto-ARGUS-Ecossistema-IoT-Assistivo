@@ -1,6 +1,6 @@
 // =================================================================================
 // ===      PROJETO ARGUS V7.1 - Monitoramento Ambiental e Ficha Médica          ===
-// ===      Novidade: Interface Web Dashboard Pro com FOTO e Barra de Carga      ===
+// ===         Interface Web Dashboard Pro com FOTO e Barra de Carga             ===
 // =================================================================================
 
 #include <WiFi.h>
@@ -437,14 +437,14 @@ void handleRoot() {
   html += "<p>Alarme de Presenca: <span class='dado' style='color:" + String(avatarDormindo ? "#45a29e" : "#ff4a4a") + "'>" + String(avatarDormindo ? "SEGURO" : "MOVIMENTO!") + "</span></p>";
   html += "</div>";
 
-  // MÓDULO MÉDICO (Aparece com a FOTO)
+  // MÓDULO MÉDICO (ACRESCENTAR O MODO STEPHEN H.)
   if(rfidNomeCompleto != "") {
     html += "<h2 style='color:#ff4a4a; text-align:center;'>⚠ ALERTA MEDICO ACIONADO ⚠</h2>";
     html += "<div class='medical-card'>";
     
-    // =========================================================================
-    // COLE O LINK DA SUA FOTO AQUI DENTRO DAS ASPAS SIMPLES do src='...'
-    // =========================================================================
+   
+    //  FOTO >>>>>>> src='...' ATULIZAÇÃO PARA ALGO MAIS COMUM NÃO SERÁ PELO CÓD
+   
     html += "<div class='photo-container'><img src='https://img.freepik.com/fotos-premium/um-homem-idoso-feliz-de-60-anos-de-idade-com-rosto-asiatico-olhando-diretamente-para-a-camera-com-fundo-de-cor-solida_521449-212.jpg' alt='Foto do Paciente'></div>";
     
     html += "<div class='info-container'>";
